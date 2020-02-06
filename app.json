@@ -3,7 +3,7 @@
   "description": "Web Analytics that handle your data with respect",
   "repository": "https://github.com/offen/heroku",
   "logo": "https://offen.github.io/press-kit/offen-icon/offen-icon-white-orange.png",
-  "keywords": ["analytics", "transparent", "privacy"],
+  "keywords": ["analytics", "privacy", "self-hosted"],
   "addons": [
     {
       "plan": "heroku-postgresql:hobby-dev"
@@ -37,12 +37,12 @@
     "OFFEN_APP_DEPLOYTARGET": {
       "description": "Allow Offen to pick up configuration specified by the Heroku runtime. (You do not need to change this).",
       "value": "heroku",
-      "required": false
+      "required": true
     },
     "OFFEN_DATABASE_DIALECT": {
-      "description": "Use a Postgres database. (You do not need to change this).",
+      "description": "Use a Postgres database. (You do not need to change this unless you provision a different database).",
       "value": "postgres",
-      "required": false
+      "required": true
     }
   }
 }
