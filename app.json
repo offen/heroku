@@ -34,19 +34,14 @@
       "description": "The 'from' address to use for sending transactional email. (We recommend setting this now, but you could also add it later).",
       "required": false
     },
-    "OFFEN_SERVER_USENAKEDPORT": {
-      "description": "Allow Offen to pick up the $PORT specified by the Heroku runtime. (You do not need to change this).",
-      "value": "true",
+    "OFFEN_APP_DEPLOYTARGET": {
+      "description": "Allow Offen to pick up configuration specified by the Heroku runtime. (You do not need to change this).",
+      "value": "heroku",
       "required": false
     },
     "OFFEN_DATABASE_DIALECT": {
       "description": "Use a Postgres database. (You do not need to change this).",
       "value": "postgres",
-      "required": false
-    },
-    "OFFEN_DATABASE_USENAKEDDATABASEURL": {
-      "description": "Allow Offen to pick up the $DATABASE_URL specified by the Heroku runtime. (You do not need to change this).",
-      "value": "true",
       "required": false
     }
   }

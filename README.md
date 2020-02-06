@@ -1,7 +1,9 @@
-# offen-on-heroku
->Preset for deploying an Offen instance to Heroku
+# heroku
+> Preset for deploying an Offen instance to Heroku
 
 ---
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 This repository contains all configuration required to deploy Offen to Heroku.
 
