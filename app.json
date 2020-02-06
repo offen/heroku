@@ -1,0 +1,32 @@
+{
+  "name": "Offen",
+  "description": "Web Analytics that handle your data with respect",
+  "repository": "https://github.com/offen/heroku",
+  "logo": "https://offen.github.io/press-kit/offen-icon/offen-icon-white-orange.png",
+  "keywords": ["analytics", "transparent", "privacy"],
+  "addons": [
+    {
+      "plan": "heroku-postgresql:hobby-dev"
+    }
+  ],
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "free"
+    }
+  },
+  "env": {
+    "OFFEN_SERVER_USENAKEDPORT": {
+      "description": "Allow Offen to pick up the $PORT specified by the Heroku runtime.",
+      "value": "true"
+    },
+    "OFFEN_DATABASE_DIALECT": {
+      "description": "Use a Postgres database.",
+      "value": "postgres"
+    },
+    "OFFEN_DATABASE_USENAKEDDATABASEURL": {
+      "description": "Allow Offen to pick up the $DATABASE_URL specified by the Heroku runtime.",
+      "value": "true"
+    }
+  }
+}
