@@ -17,6 +17,7 @@
       "size": "free"
     }
   },
+  "success_url": "/setup/",
   "env": {
     "OFFEN_SMTP_HOST": {
       "description": "The SMTP host to use for sending transactional email. (We recommend setting this now, but you could also add it later).",
