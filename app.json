@@ -49,6 +49,10 @@
       "description": "Use a Postgres database. (You do not need to change this unless you provision a different database).",
       "value": "postgres",
       "required": true
+    },
+    "HEROKU_COOKIE_SECRET": {
+      "description": "A secret key for verifying the integrity of signed cookies",
+      "generator": "secret"
     }
   }
 }
