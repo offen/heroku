@@ -50,8 +50,8 @@
       "value": "postgres",
       "required": true
     },
-    "HEROKU_COOKIE_SECRET": {
-      "description": "A secret key for verifying the integrity of signed cookies",
+    "APP_SECRET": {
+      "description": "A secret key for verifying the integrity of signed cookies and URL tokens",
       "generator": "secret"
     }
   }
