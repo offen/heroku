@@ -1,3 +1,3 @@
-FROM offen/offen:v0.4.1
+FROM offen/offen:v0.4.2
 
 CMD ["serve"]
