@@ -6,7 +6,7 @@
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
-Deploy your own Offen instance to Heroku.
+Deploy your own Offen Fair Web Analytics instance to Heroku.
 
 You can check the [tutorial][] in our documentation for detailed instructions.
 
