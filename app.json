@@ -1,6 +1,6 @@
 {
-  "name": "Offen",
-  "description": "Web Analytics that handle your data with respect",
+  "name": "Offen Fair Web Analytics",
+  "description": "Let your users access their data. Gain valuable insights at the same time. Open, lightweight, self hosted and free.",
   "repository": "https://github.com/offen/heroku",
   "logo": "https://offen.github.io/press-kit/offen-icon/offen-icon-white-orange.png",
   "keywords": ["analytics", "privacy", "self-hosted"],
